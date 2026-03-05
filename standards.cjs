@@ -462,6 +462,18 @@ const proposals = [
 				version: "26 beta",
 				date: "2025-06-09",
 			},
+			{
+				type: "shipped",
+				browser: "safari",
+				version: "26",
+				date: "2025-09-15",
+			},
+			{
+				type: "shipped",
+				browser: "firefox",
+				version: "146",
+				date: "2025-12-09",
+			}
 		]
 	},
 	{
