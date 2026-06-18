@@ -720,7 +720,25 @@ const proposals = [
 				type: "resolution",
 				url: "https://github.com/w3c/csswg-drafts/issues/9192#issuecomment-1789850349",
 				date: "2023-11-01"
-			}
+			},
+			{
+				type: "shipped",
+				browser: "chrome",
+				version: "148",
+				date: "2026-05-05",
+			},
+			{
+				type: "shipped",
+				browser: "safari",
+				version: "26.4",
+				date: "2026-03-24",
+			},
+			{
+				type: "shipped",
+				browser: "firefox",
+				version: "149",
+				date: "2026-03-24",
+			},
 		]
 	},
 	{
