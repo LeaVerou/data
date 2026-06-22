@@ -836,6 +836,20 @@ const proposals = [
 			},
 		],
 	},
+	{
+		id: "multiple-pseudos",
+		title: "Multiple `::before`/`::after` pseudo-elements",
+		description:
+			"Addresses a long-standing composability failure where `::before` and `::after` are a shared resource that different sources of styling (components, design systems, themes, the UA) need to compete for. Proposes parametrized pseudo-elements keyed by `<ident>` (e.g. `::before(icon)`) to enable multiple generated content pseudos per element without collisions.",
+		tags: ["Web Components"],
+		milestones: [
+			{
+				type: "proposal",
+				url: "https://github.com/w3c/csswg-drafts/issues/13860",
+				date: "2026-04-29",
+			},
+		],
+	},
 	// TODO custom attributes
 ];
 
