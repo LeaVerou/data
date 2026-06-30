@@ -565,7 +565,7 @@ const proposals = [
 		]
 	},
 	{
-		title: "Arbitrary rounded polygons",
+		title: "Polygon rounding",
 		description: `This proposal allows authors to add rounding to arbitrary polygon shapes, addressing a common pain point that previously required pre-generated images`,
 		milestones: [
 			{
@@ -577,6 +577,12 @@ const proposals = [
 				type: "resolution",
 				url: "https://github.com/w3c/csswg-drafts/issues/9843#issuecomment-1944485653",
 				date: "2024-02-14"
+			},
+			{
+				type: "shipped",
+				browser: "chrome",
+				version: "150",
+				date: "2026-06-30"
 			}
 		]
 	},
