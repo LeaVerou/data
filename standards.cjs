@@ -562,6 +562,12 @@ const proposals = [
 				version: "18.2",
 				date: "2024-12-09",
 			},
+			{
+				type: "shipped",
+				browser: "chrome",
+				version: "150",
+				date: "2026-06-30",
+			}
 		]
 	},
 	{
