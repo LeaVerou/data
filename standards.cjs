@@ -851,6 +851,30 @@ const proposals = [
 		],
 	},
 	{
+		id: "class-prefix",
+		title: "Class prefix selectors (`.prefix-*`)",
+		description: "A way to match classes by a hyphen-separated prefix, e.g. `.bi-*`. Styling what a family of utility or icon classes has in common is a common pain point, currently requiring enumerating every class, a second “base” class, or fragile attribute selectors.",
+		tags: ["Selectors"],
+		milestones: [
+			{
+				type: "proposal",
+				url: "https://github.com/w3c/csswg-drafts/issues/10001",
+				date: "2024-02-26",
+			},
+			{
+				type: "resolution",
+				url: "https://github.com/w3c/csswg-drafts/issues/10001#issuecomment-5204871059",
+				date: "2026-08-06",
+			},
+			{
+				type: "specced",
+				by: "Tab",
+				url: "https://github.com/w3c/csswg-drafts/commit/966052ca1f1848c4653ce121c74a47221181da93",
+				date: "2026-08-18",
+			},
+		],
+	},
+	{
 		id: "multiple-pseudos",
 		title: "Multiple `::before`/`::after` pseudo-elements",
 		description:
