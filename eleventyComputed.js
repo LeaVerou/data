@@ -1,5 +1,10 @@
 
 export default {
+	is_post (data) {
+		return (data.blogs?.some(blog => data.tags?.includes(blog)) ?? false)
+			&& (data.page.inputPath?.endsWith("/index.md") ?? false);
+	},
+
 	oldURL (data) {
 
 		let {site, page} = data;
