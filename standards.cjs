@@ -888,6 +888,48 @@ const proposals = [
 			},
 		],
 	},
+	{
+		id: "revert-rule",
+		title: "Rule-level cascade reverting (`!revertable`, later `revert-rule`)",
+		description:
+			"A way for a declaration to opt out of the cascade and fall back to the value from the previous matching rule, similar to how `revert-layer` works for cascade layers. Originally proposed as a `!revertable` flag; after iterating, the WG resolved on a `revert-rule` CSS-wide keyword instead, which is especially useful with `if()` to make an entire declaration conditional.",
+		tags: ["Design systems", "Web Components"],
+		milestones: [
+			{
+				type: "proposal",
+				title: "Proposal (as a `!revertable` flag)",
+				url: "https://github.com/w3c/csswg-drafts/issues/10443",
+				date: "2024-06-13",
+			},
+			{
+				type: "resolution",
+				title: "WG Resolution (as a `revert-rule` keyword)",
+				url: "https://github.com/w3c/csswg-drafts/issues/10443#issuecomment-2627865962",
+				date: "2025-01-31",
+			},
+			{
+				type: "specced",
+				by: "andruud",
+				url: "https://github.com/w3c/csswg-drafts/commit/1a7ca79d62ae0cd10ad0a4f63a6acdf4a29ed65f",
+				date: "2025-10-28",
+			},
+			{
+				type: "shipped",
+				browser: "firefox",
+				version: "150",
+			},
+			{
+				type: "shipped",
+				browser: "chrome",
+				version: "148",
+			},
+			{
+				type: "shipped",
+				browser: "safari",
+				version: "27",
+			},
+		],
+	},
 	// TODO custom attributes
 ];
 
