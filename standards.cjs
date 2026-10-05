@@ -892,9 +892,16 @@ const proposals = [
 		id: "revert-rule",
 		title: "Rule-level cascade reverting (`!revertable`, later `revert-rule`)",
 		description:
-			"A way for a declaration to opt out of the cascade and fall back to the value from the previous matching rule, similar to how `revert-layer` works for cascade layers. Originally proposed as a `!revertable` flag; after iterating, the WG resolved on a `revert-rule` CSS-wide keyword instead, which is especially useful with `if()` to make an entire declaration conditional.",
+			"A way for a declaration to opt out of the cascade and fall back to the value from the previous matching rule, similar to how `revert-layer` works for cascade layers. First proposed by JaneOri as an `ignore` CSS-wide keyword, then independently as a `!revertable` flag; after iterating, the WG resolved on a `revert-rule` CSS-wide keyword instead, which is especially useful with `if()` to make an entire declaration conditional.",
 		tags: ["Design systems", "Web Components"],
 		milestones: [
+			{
+				type: "proposal",
+				title: "Original proposal (as an `ignore` keyword)",
+				by: "JaneOri",
+				url: "https://github.com/w3c/csswg-drafts/issues/5319",
+				date: "2020-07-14",
+			},
 			{
 				type: "proposal",
 				title: "Proposal (as a `!revertable` flag)",
