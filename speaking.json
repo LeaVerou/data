@@ -1,10 +1,23 @@
 {
 	"event": [
 		{
+			"date": "2026-09-18",
+			"talk": [
+				{
+					"title": "No-build: pipe dream or near future?",
+					"type": "Talk"
+				}
+			],
+			"url": "https://www.dotjs.io/",
+			"name": "dotJS",
+			"city": "Paris",
+			"country": "fr"
+		},
+		{
 			"date": "2026-06-11",
 			"talk": [
 				{
-					"title": "TBD",
+					"title": "What the color?!",
 					"type": "Talk",
 					"@context": "https://schema.org/"
 				}
